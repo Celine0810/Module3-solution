@@ -1,0 +1,34 @@
+/* 
+   Mobile Dropdown Styling 
+   Sets a distinct background color and ensures items take up the full width 
+*/
+.mobile-dropdown-menu {
+    background-color: #e7e7e7;
+    margin: 0 -15px; /* Pulls the menu out to the very edge of the container */
+    border-top: 1px solid #ccc;
+}
+
+.mobile-dropdown-menu > li > a {
+    text-align: center;
+    color: #333;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.mobile-dropdown-menu > li > a:hover {
+    background-color: #d4d4d4;
+}
+
+/* 
+   Tall Content Section
+   Forces a 1000px height to demonstrate scrolling 
+*/
+.tall-section {
+    height: 1000px;
+    background-color: #d9edf7; /* Light blue Bootstrap info color */
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 1px solid #bce8f1;
+    border-radius: 4px;
+}
